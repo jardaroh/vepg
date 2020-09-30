@@ -1,0 +1,35 @@
+@import "material-design-icons/iconfont/material-icons.css";
+
+html, body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --size-mod: 4.5;
+  --tile-size: calc(1rem * var(--size-mod));
+
+  --color-gray-0: #000;
+  --color-gray-1: #111111;
+  --color-gray-2: #202020;
+  --color-gray-3: #393939;
+  --color-gray-35: #3c3c3c;
+  --color-gray-4: #4e4e4e;
+  --color-yellow-1: rgb(225, 162, 30);
+
+  font-family: sans-serif;
+}
+
+.shadow-right {
+  box-shadow: 8px -8px 8px #0005, 8px 8px 8px #0005;
+}
+
+.button {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  background: var(--color-yellow-1);
+}
