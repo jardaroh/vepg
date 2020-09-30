@@ -7,3 +7,5 @@ run `npm i`
 
 ### run the demo
 run `npm run demo`. This will launch the development server and the mock API
+
+visit `http://localhost:8080`
